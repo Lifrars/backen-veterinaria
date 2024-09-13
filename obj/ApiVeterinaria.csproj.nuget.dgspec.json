@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wmarin/dev/projects/ApiVeterinaria/ApiVeterinaria/ApiVeterinaria.csproj": {}
+  },
+  "projects": {
+    "/Users/wmarin/dev/projects/ApiVeterinaria/ApiVeterinaria/ApiVeterinaria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wmarin/dev/projects/ApiVeterinaria/ApiVeterinaria/ApiVeterinaria.csproj",
+        "projectName": "ApiVeterinaria",
+        "projectPath": "/Users/wmarin/dev/projects/ApiVeterinaria/ApiVeterinaria/ApiVeterinaria.csproj",
+        "packagesPath": "/Users/wmarin/.nuget/packages/",
+        "outputPath": "/Users/wmarin/dev/projects/ApiVeterinaria/ApiVeterinaria/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/wmarin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.422/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
